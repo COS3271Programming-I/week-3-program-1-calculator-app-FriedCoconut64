@@ -1,0 +1,23 @@
+package myMain;
+
+import java.util.Scanner;
+
+public class MainClass {
+	static Scanner userinput = new Scanner(System.in);
+	public static void main(String[] args) {
+			double x;
+			double y;
+			System.out.print("Please choose a number (at or above 1):");
+			x = userinput.nextDouble();
+			System.out.print("Please choose another number (same req.):");
+			y = userinput.nextDouble();
+			
+			System.out.format(x + " + " + y + " = %.3f\n", x + y);
+			System.out.format(x + " - " + y + " = %.3f\n", x - y);
+			System.out.format(x + " * " + y + " = %.3f\n", x * y);
+			System.out.format(x + " / " + y + " = %.3f\n", x / y);
+			System.out.format("Log " + y + " (" + x + ") = %.6f\n", Math.log(x)/Math.log(y));
+	
+	}
+
+}
