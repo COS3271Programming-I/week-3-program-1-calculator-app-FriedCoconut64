@@ -1,0 +1,7 @@
+Please choose a number (at or above 1):10
+Please choose another number (same req.):2
+10.0 + 2.0 = 12.000
+10.0 - 2.0 = 8.000
+10.0 * 2.0 = 20.000
+10.0 / 2.0 = 5.000
+Log2.0(10.0) = 3.321928
